@@ -33,6 +33,6 @@ def self.cards_total(cards)
   total    #must assign zero
   for card in cards
     total += card.value
-    return "You have a total of" + total #wrong place to return
+    return "You have a total of" + total #wrong place to return and wrong way of doing it
   end
 end
